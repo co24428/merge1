@@ -4,7 +4,7 @@
 ~~~
 git remote add [name] [폴더경로] // git remote로 [name] 확인
 git fetch [name]
-git merge --allow-unrelated-histories [name]/master // ls로 파일 확인
+git merge --allow-unrelated-histories [name]/master // :q > Enter로 vi 나가기,  ls로 파일 확인
 git push // commit log에서 확인 : Merge remote-tracking branch '[name]/master'
 ~~~
 
@@ -61,6 +61,7 @@ Merge made by the 'recursive' strategy.
  create mode 100644 from merge2.md
 ~~~
 - merge2/master 것을 "history관계없이" 병합한다.
+- 실행 시 vi로 들어가게 되는데, :q 입력 후 Enter 누르면 진행 가능
 - push와 같은 개념으로 추측된다.
 
 ~~~
